@@ -1,0 +1,68 @@
+a{
+    color: black;
+	text-decoration: none;
+}
+.caixa{
+    background-color:#252525;
+}
+
+.mes{
+    color: black;
+    font-size: small;
+    font-weight: bold;
+    background-color: grey;
+    padding: 5px 12px;
+    width: 80px;
+    text-align: center;
+    margin: 10px;
+    float: left;
+}
+
+.mes:hover{
+    background-color: white;
+}
+
+.sair{
+    color: black;
+    font-weight: bold;
+    font-size: small;
+    background-color: white;
+    display: block;
+    width: 50px;
+    clear: both;
+    text-align: center;
+    padding: 5px;
+    margin-left: 85%;
+}
+
+h2{
+    
+    color: white;
+    text-align: center;
+    margin: 100px;  
+
+
+}
+
+.tabela{
+    margin: auto;
+    color: white;
+    border-collapse: collapse;
+}
+td{
+    width: 150px;
+    font-size: 9pt;
+}
+
+.titulo{
+    font-weight: 300;
+    background-color: white;
+    color: black;
+}
+
+.adicionar{
+    width: 50px;
+    background-color: white;
+    color: black;
+    text-align: center;
+}
