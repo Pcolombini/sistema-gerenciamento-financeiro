@@ -7,7 +7,7 @@ body{
 	background-color: #252525;
 }
 
-legend{
+.legend{
 	text-align: center;
 	font-weight: 700;
 	color: #fff;
@@ -34,3 +34,4 @@ input[type = "submit"]{
 	width: 345px;
 	height: 40px;
 }
+
