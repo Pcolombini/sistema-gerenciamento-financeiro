@@ -1,0 +1,36 @@
+html{
+	font-family: 'Source Code Pro', monospace;
+	font-size: 15pt;
+}
+
+body{
+	background-color: #252525;
+}
+
+legend{
+	text-align: center;
+	font-weight: 700;
+	color: #fff;
+}
+
+.forms{
+	padding: 5px;
+	width: 400px;
+	margin: 100px auto;
+	
+}
+
+input{
+	width: 80%;
+	height: 25px;
+	text-align: center;
+	margin: 10px auto;
+	display: block;
+	padding: 10px;
+	border-radius: 7px;
+}
+
+input[type = "submit"]{
+	width: 345px;
+	height: 40px;
+}
