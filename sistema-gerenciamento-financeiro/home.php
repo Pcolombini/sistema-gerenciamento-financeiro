@@ -28,7 +28,7 @@
         <section class="conteudo">
             <h2>Dívidas</h2>
             <section class="adicionar">+</section>
-            <table class="tabela">
+                <table class="tabela">
                 <tr>
                     <td class="titulo"></td>
                     <td class="titulo">Origem</td>
@@ -37,15 +37,70 @@
                     <td class="titulo">Vencimento</td>
                 </tr>
                 <tr>
-                    <td>-</td>
+                    <td><a href="" class="apagar">-</a></td>
                     <td>Boleto</td>
                     <td>Compras</td>
                     <td>150,00</td>
                     <td>05/04/2022</td>
                 </tr>
+                <tr>
+                    <td><a href="" class="apagar">-</a></td>
+                    <td>Boleto</td>
+                    <td>Compras</td>
+                    <td>150,00</td>
+                    <td>05/04/2022</td>
+                </tr>
+                <tr>
+                    <td><a href="" class="apagar">-</a></td>
+                    <td>Boleto</td>
+                    <td>Compras</td>
+                    <td>150,00</td>
+                    <td>05/04/2022</td>
+                </tr>
+                <tr class="rodape">
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="total">1000,00</td>
+                    <td></td>
+                </tr>
             </table>
             <h2>Entradas</h2>
-        </section>
+            <section class="adicionar">+</section>
+                <table class="tabela">
+                <tr>
+                    <td class="titulo"></td>
+                    <td class="titulo">Origem</td>
+                    <td class="titulo">Valor</td>
+                    <td class="titulo">Dia Recebimeto</td>
+                </tr>
+                <tr>
+                    <td><a href="" class="apagar">-</a></td>
+                    <td>Pagamento</td>
+                    <td>150,00</td>
+                    <td>05/04/2022</td>
+                </tr>
+                <tr>
+                    <td><a href="" class="apagar">-</a></td>
+                    <td>Pagamento</td>
+                    <td>150,00</td>
+                    <td>05/04/2022</td>
+                </tr>
+                <tr>
+                    <td><a href="" class="apagar">-</a></td>
+                    <td>Pagamento</td>
+                    <td>150,00</td>
+                    <td>05/04/2022</td>
+                </tr>
+                <tr class="rodape">
+                    <td></td>
+                    <td></td>
+                    <td class="total">1000,00</td>
+                    <td></td>
+                </tr>
+            </table>
+            <h3 id="green">Saldo Total: 00,00</h3>
+        </section>     
     </main>
     
 

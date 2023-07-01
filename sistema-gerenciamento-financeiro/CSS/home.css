@@ -44,14 +44,29 @@ h2{
 
 }
 
+h3{
+    color: white;
+    margin: 50px auto;
+    width: 130px;
+    padding: 10px;
+    text-align: center;
+    font-size: small;
+}
+
 .tabela{
     margin: auto;
     color: white;
     border-collapse: collapse;
 }
+
 td{
     width: 150px;
     font-size: 9pt;
+}
+
+tr:hover{
+    cursor: pointer;
+    background-color: gray;
 }
 
 .titulo{
@@ -65,4 +80,41 @@ td{
     background-color: white;
     color: black;
     text-align: center;
+    margin: 0px 0px 10px 380px;
+}
+
+.adicionar:hover{
+    background-color: green;
+    cursor: pointer;
+}
+
+.apagar{
+    display: block;
+    background-color: white;
+    width: 25px;
+    text-align: center;
+    padding: 3px 0px 0px 0px;
+}
+
+.apagar:hover{
+    background-color: red;
+    cursor: pointer;
+}
+.total{
+    padding: 2px;
+    font-weight: 700;
+    background-color: white;
+    color: black;
+}
+.rodape:hover{
+    background-color: #252525;
+    cursor: context-menu;
+}
+
+#green{
+    background-color: green;
+}
+
+#red{
+    background-color: red;
 }
