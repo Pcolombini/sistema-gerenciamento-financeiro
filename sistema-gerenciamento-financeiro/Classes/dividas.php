@@ -11,6 +11,9 @@ class Dividas{
         $senha = '';
         $host = 'localhost';
 
+        /**
+         * CHAMA O DB E SE HOUVER ERRO NA REQUISIÇÃO, TRAZ UMA MENSAGEM DE ERRO
+         */
         try {
            $this->pdo = new PDO("mysql:dbname=".$nome.";host=".$host, $user, $senha);
         } catch (Exception $e) 
@@ -19,6 +22,9 @@ class Dividas{
         }
     }
 
+    /**
+     * RETORNA EM UM ARRAY OS DADOS CADASTRADOS NA TABELA MÊS SE HOUVER MAIS LINHAS QUE 0, SE NÃO RETORNA UM ARRAY VAZIO 
+     */
     public function get_meses()
     {
         $sql = $this->pdo->query("SELECT ID_MES, DESCRICAO FROM MES");

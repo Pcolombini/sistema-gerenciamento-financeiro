@@ -1,8 +1,12 @@
 <?php require_once 'Classes/dividas.php';
 
+
+/**
+ * FAZ A INSTÂNCIA DA CLASSE DIVIDA, COM A CONEXÃO COM O DB 
+ */
 $d = new Dividas();
 $meses = $d->get_meses();
-print_r($meses);
+// print_r($meses);
 
 ?>
 
