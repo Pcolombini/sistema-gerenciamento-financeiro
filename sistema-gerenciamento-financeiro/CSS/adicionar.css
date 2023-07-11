@@ -1,0 +1,47 @@
+.form{
+    width: 400px;
+    margin: auto;
+}
+
+input[type = "submit"] {
+    width: 86%;
+}
+
+.divida{
+    color:white;
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+    margin: 60px auto 15px;
+}
+
+.iten{
+    width: 70%;
+    font-size: 11pt;
+    padding: 15px;
+    margin-left: 40px;
+    /* background-color: red; */
+}
+
+.bbox{
+    /* background-color: red; */
+    width: 275px;
+    margin: auto;
+}
+
+.box{
+    background-color: white;
+    width: 30px;
+    text-align: center;
+    color:black;
+    float: left;
+    padding: 5px;
+}
+
+.add{
+    text-decoration: none;
+}

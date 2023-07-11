@@ -1,3 +1,11 @@
+<?php require_once 'Classes/dividas.php';
+
+$d = new Dividas();
+$meses = $d->get_meses();
+print_r($meses);
+
+?>
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -61,7 +69,7 @@
                     <td></td>
                     <td></td>
                     <td></td>
-                    <td class="total">1000,00</td>
+                    <td class="total"><strong>1000,00</strong></td>
                     <td></td>
                 </tr>
             </table>
@@ -95,7 +103,7 @@
                 <tr class="rodape">
                     <td></td>
                     <td></td>
-                    <td class="total">1000,00</td>
+                    <td class="total"><strong>1000,00</strong></td>
                     <td></td>
                 </tr>
             </table>

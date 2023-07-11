@@ -13,7 +13,7 @@
 <body>
 	<main class="principal">
 		<section class="container">
-			<form action="index_submit" method="" accept-charset="utf-8" class="forms">
+			<form action="home.php" method="get" accept-charset="utf-8" class="forms">
 				<legend class="legend">Login</legend>
 				<input type="password" name="senha" placeholder="Senha">
 				<input type="submit" name="Entrar" value="Entrar">
